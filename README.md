@@ -1,6 +1,6 @@
 <p align="center">
 
-  <img src="assets/trading-terminal-hero.svg" alt="Trading terminal and global markets" width="720" />
+  <img src="assets/market-hero.gif" alt="Animated stock market candlesticks" width="720" />
 
 </p>
 
