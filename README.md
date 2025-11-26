@@ -62,15 +62,15 @@ Right now I’m focused on:
 
 ---
 
-## 🏦 PBCEx – People’s Bank & Commodities Exchange
+## 🏦 PBCEx – People’s Brokerage & Commodities Exchange
 
-PBCEx lets users buy, hold, trade, and eventually redeem physical commodities.
+PBCEx lets users buy, trade, spend, and redeem physical commodities.
 
 * Early phase: synthetic metals (XAU-s, XAG-s, XPT-s, XPD-s, XCU-s) on an internal ledger
 
 * Custody partners and vault-backed metals rather than pure paper exposure
 
-* Physical fulfillment via metals wholesalers and insured logistics
+* Physical fulfillment with insured logistics
 
 * Spread + fee model targeting a lean, transparent market-of-record for metals
 
