@@ -43,8 +43,6 @@ I trade global markets and build rails for them at the same time.
 
 * Goal: asset-backed rails where retail, producers, and institutions can all clear on the same stack
 
-> now
-
 > markets: crypto · commodities · equities
 
 > building: PBCEx · Timeline (S.E.P.T.) · automation lab
@@ -55,7 +53,7 @@ I trade global markets and build rails for them at the same time.
 
 Right now I’m focused on:
 
-* Shipping the PBCEx MVP (synthetic metals on an internal trading ledger)
+* Shipping the PBCEx MVP (synthetic metals on an internal trading ledger w/ insured fulfillment)
 
 * Price aggregation, hedging, and dashboards for metals and FX flows
 
