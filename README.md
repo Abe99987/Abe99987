@@ -153,7 +153,7 @@ I run an AI-centered workflow anchored by a “second brain” system.
 
 Context layer:
 
-* Obsidian vault and GitHub repos (front-matter + tags) mirrored into a Pinecone index
+* Obsidian vault and GitHub repos (front-matter + tags) for mirrored indexs.
 
 * Unified context across AI tools via retrieval-augmented generation (RAG) and model-context-protocol-style patterns
 
@@ -189,19 +189,21 @@ Agents and use cases:
 
 * Markets agent – generates daily price charts and stats for hidden markets dashboards
 
-Post-funding plan: hybrid architecture
+Hybrid architecture
 
 * Local models (NAS-backed) for sensitive data
 
 * Cloud models for general reasoning
 
-* Open WebUI / open-source stacks as hybrid interfaces
+* Open WebUI Remix / open-source stacks as hybrid interfaces
 
 * Running Qwen, LLaMA, and GPT-class models locally for experiments and “agent builder” projects
+  
+* Wrappers with Express / NestJS
 
 ---
 
-## 🛠️ Product Stack
+## 🛠️ Product Stacks
 
 Frontend
 
@@ -237,7 +239,7 @@ Markets & Payments
 
 Creative Tools
 
-* Adobe Illustrator (layered/path SVGs), Photoshop, Premiere
+* Adobe Illustrator (layered/path SVGs for react), Photoshop, Premiere
 
 ---
 
