@@ -45,7 +45,7 @@ I trade global markets and build rails for them at the same time.
 
 > markets: crypto · commodities · equities
 
-> building: PBCEx · Timeline (S.E.P.T.) · automation lab
+> building: PBCEx · automation lab
 
 > location: Pittsburgh, PA
 
@@ -123,7 +123,7 @@ Repo:
 
 * [`Timeline`](https://github.com/Abe99987/Timeline) – evidence-based historical timeline with S.E.P.T. indexing
 
-If you care about evidence-first history, reach out and work with us on Source Timeline: [https://www.sourcetimeline.com/](https://www.sourcetimeline.com/)
+If you care about evidence-first history, and how we can tie this into automated analytics reach out and work with us on Source Timeline
 
 ---
 
@@ -245,7 +245,7 @@ Creative Tools
 
 * Website: [https://pbcex.com](https://pbcex.com)
 
-* Source Timeline: [https://www.sourcetimeline.com](https://www.sourcetimeline.com) – reach out and work with us on Source Timeline.
+* Source Timeline: – reach out and work with us on Source Timeline.
 
 * LinkedIn: [https://www.linkedin.com/in/ebraheim-salem-2117688b/](https://www.linkedin.com/in/ebraheim-salem-2117688b/)
 
