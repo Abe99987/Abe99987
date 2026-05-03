@@ -1,257 +1,194 @@
 <p align="center">
-
   <img src="assets/market-hero.gif" alt="Animated stock market candlesticks" width="720" />
-
 </p>
 
 <h1 align="center">Ebraheim Salem</h1>
-<h2 align="center">Mr.Fox</h2>
+<h2 align="center">Mr. Fox</h2>
 
 <p align="center">
-
-  Full-time trader · Founder of <a href="https://pbcex.com">PBCEx</a> · Vibe-coding Next.js apps
-
+  Founder of <a href="https://pbcex.com">PBCEx</a> · Trader · Building Next.js apps with AI
 </p>
 
 ---
 
-## 📚 Table of Contents
+## Table of Contents
 
-* [Now Trading / Now Building](#-now-trading--now-building)
-
-* [PBCEx – People’s Bank & Commodities Exchange](#-pbcex--peoples-bank--commodities-exchange)
-
-* [Evidence-First History – Timeline & S.E.P.T.](#-evidence-first-history--timeline--sept)
-
-* [Other Builds](#-other-builds)
-
-* [AI Development Stack](#-ai-development-stack)
-
-* [Product Stack](#-product-stack)
-
-* [Connect](#-connect)
+* [Now Trading / Now Building](#now-trading--now-building)
+* [PBCEx](#pbcex)
+* [Source Timeline (S.E.P.T.)](#source-timeline-sept)
+* [Other Builds](#other-builds)
+* [AI Development Stack](#ai-development-stack)
+* [Product Stack](#product-stack)
+* [Connect](#connect)
 
 ---
 
-## 📈 Now Trading / Now Building
+## Now Trading / Now Building
 
-I trade global markets and build rails for them at the same time.
+I trade global markets and build the rails for them at the same time.
 
 * Trading: crypto, precious metals, select equities and indices
+* Building: a spot exchange for physical commodities, for retail and institutions
+* Goal: allocated, asset-backed rails where retail, producers, and institutions clear on the same stack
 
-* Building: a tokenized-commodities exchange for real people, not just funds
-
-* Goal: asset-backed rails where retail, producers, and institutions can all clear on the same stack
-
-> markets: crypto · commodities · equities
-
-> building: PBCEx · automation lab
-
-> location: Pittsburgh, PA
-
+> markets: crypto, commodities, equities  
+> building: PBCEx, automation lab  
+> location: Pittsburgh, PA  
 > mode: shipping, not polishing
 
-Right now I’m focused on:
+Right now I am focused on:
 
-* Shipping the PBCEx MVP (synthetic metals on an internal trading ledger w/ insured fulfillment)
-
+* Shipping the PBCEx MVP, spot trading and allocated storage with insured fulfillment in one account
 * Price aggregation, hedging, and dashboards for metals and FX flows
-
 * Agent-driven ops: ledgers, support drafts, monitoring, and journaling
 
 ---
 
-## 🏦 PBCEx – People’s Brokerage & Commodities Exchange
+## PBCEx
 
-PBCEx lets users buy, trade, spend, and redeem physical commodities.
+People's Brokerage and Commodities Exchange. Trade, save, store, spend, and ship real metal.
 
-* Early phase: synthetic metals (XAU-s, XAG-s, XPT-s, XPD-s, XCU-s) on an internal ledger
+PBCEx is a spot exchange for physical commodities. Users fund with USD or crypto, set limit orders on real metal, accumulate fractional positions at wholesale pricing, and take physical delivery on demand. Every position is backed one to one in allocated storage. Customers only pay product premiums when shipping or vaulting. When they sell back, PBCEx offers a competitive buyback price. The platform covers the full cycle: fractional accumulation, price-controlled entry, segregated vaulting, and near-spot resale on exit.
 
-* Custody partners and vault-backed metals rather than pure paper exposure
-
-* Physical fulfillment with insured logistics
-
-* Spread + fee model targeting a lean, transparent market-of-record for metals
-
-* Long-term plan: vault-backed tokens and a dedicated settlement stack (L1 + L2s)
+* Wholesale metals: (FizConnect API)
+* Allocated storage and fulfillment: IDS Vault
+* Crypto trading and custody: Embeded API
+* Wholesale-to-retail spread on physical, plus fractional pool trading on our own ledger
+* Long-term: tokenized commodity rails and a dedicated settlement stack
 
 Core public repos:
 
-* [`abes-pbcex-workspace`](https://github.com/Abe99987/abes-pbcex-workspace) – monorepo for backend, frontend, and ops tooling
-
-* `PBCEx-Obsidian` – knowledge base, specs, and architecture decision records (ADRs)
-
+* [`abes-pbcex-workspace`](https://github.com/Abe99987/abes-pbcex-workspace), monorepo for backend, frontend, and ops tooling
+* `PBCEx-Obsidian`, knowledge base, specs, and architecture decision records
 * Admin and ops terminals for risk, hedging, support, and investor tiles
 
 ---
 
-## 🧾 Evidence-First History – Timeline & S.E.P.T.
+## Source Timeline (S.E.P.T.)
 
-I care about how we record events as much as how we trade them.
+A separate project on evidence-first history.
 
-S.E.P.T. stands for: Source, Event, Place, Time.
-
-Source S said that event E occurred at place P during time T.
+S.E.P.T. stands for Source, Event, Place, Time. Source S said event E happened at place P during time T.
 
 The idea:
 
 * Every entry has who, what, when, where, and why
-
 * Evidence attached: people, places, things, photos, notes, papers, journals
-
-* A chain of evidence: who wrote this, when, and who handled and submitted it?
-
+* A chain of evidence, who wrote this, when, and who handled and submitted it
 * Meta tags:
+  * People (e.g., Martin Luther King Jr., George Washington)
+  * Places (e.g., Shanghai, China)
+  * Things (e.g., AI, F-22 jet)
+  * Lens (e.g., Religion, Finance, Research, News)
 
-  * People – e.g., “Martin Luther King Jr.”, “George Washington”
+We usually read the victor's version of history. S.E.P.T. focuses on:
 
-  * Places – e.g., “Shanghai, China”
-
-  * Things – e.g., “AI”, “F-22 jet plane”
-
-  * Lens – e.g., “Religion”, “Finance”, “Research”, “News”
-
-We are usually reading the victor’s version of history. S.E.P.T. focuses on:
-
-* Storyline = why and how, not just what
-
+* Storyline, the why and how, not just the what
 * Backlinks between correlated events
-
-* Higher correlation and stronger evidence → higher probability and correlation scores
+* Higher correlation and stronger evidence equals higher probability scores
 
 Repo:
 
-* [`Timeline`](https://github.com/Abe99987/Timeline) – evidence-based historical timeline with S.E.P.T. indexing
+* [`Timeline`](https://github.com/Abe99987/Timeline), evidence-based historical timeline with S.E.P.T. indexing
 
-If you care about evidence-first history, and how we can tie this into automated analytics reach out and work with us on Source Timeline
 
 ---
 
-## 🧪 Other Builds
+## Other Builds
 
-Outside of PBCEx, I build tools where real-world operators need live data.
+Outside of PBCEx:
 
-* Meat export & slaughterhouse dashboard – live beef prices and export data for a slaughterhouse builder/exporter, wired into a charting interface so they can track spreads and opportunities.
-
+* Meat export and slaughterhouse dashboard, live beef prices and export data wired into a charting interface so an exporter can track spreads and opportunities
 * Internal tools and experiments:
-
   * Micro-manufacturing and metals workflows
-
   * Ops dashboards for logistics and payments
-
   * Utilities around trading, journaling, and research
 
-Most of these use the same core stack: Next.js, TypeScript, and AI-assisted workflows.
+Most use the same core stack: Next.js, TypeScript, NestJS, and AI-assisted workflows.
 
 ---
 
-## 🤖 AI Development Stack
+## AI Development Stack
 
-I run an AI-centered workflow anchored by a “second brain” system.
+I run an AI-centered workflow anchored by an Obsidian and GitHub second brain.
 
 Context layer:
 
-* Obsidian vault and GitHub repos (front-matter + tags) for mirrored indexs.
-
-* Unified context across AI tools via retrieval-augmented generation (RAG) and model-context-protocol-style patterns
+* Obsidian vault and GitHub repos with front-matter and tags, mirrored as a unified index
+* Retrieval-augmented context across AI tools, with model-context-protocol-style patterns
 
 Workflow loop:
 
-1. Plan and prompt engineering with GPT-class models using template/meta prompts
-
-2. Build and test with Claude models
-
-3. Use CodeRabbit / CodeX for pull-request gating and code review
-
-4. Close each session with an ADR (architecture decision record) and session journal, then upsert to Pinecone
+1. Plan and prompt with GPT-class models using template and meta prompts
+2. Build and test with Anthropic models in Cursor
+3. Use CodeRabbit and Codex for pull-request gating and review
+4. Close each session with an architecture decision record and a session journal in the knowledge base
 
 Quality control:
 
-* Manual reviews after builds and again after test runs
-
-* Final pass after PR reviews to avoid regressions and hallucinations
-
+* Manual review after builds and again after test runs
+* Final pass after PR review to catch regressions
 * Clear audit trail and fast iteration cycles
 
 Terminal setup:
 
-* iTerm2 + tmux running parallel command-line agents (Claude, Gemini, Grok, internal scripts)
-
+* iTerm2 plus tmux running parallel command-line agents (Claude, Gemini, Grok, internal scripts)
 * Repos wired for multi-agent workflows
 
-Agents and use cases:
+Agents in use:
 
-* Price aggregation agent – aggregates prices from several online sources to build a live range
+* Price aggregation agent that pulls from several sources to build a live range
+* Customer-support drafting agent that prepares responses for human review
+* Markets agent that generates daily price charts and stats for internal dashboards
 
-* Customer-support drafting agent – drafts responses for support emails to a drafts folder for human review and send
+Hybrid architecture:
 
-* Markets agent – generates daily price charts and stats for hidden markets dashboards
-
-Hybrid architecture
-
-* Local models (NAS-backed) for sensitive data
-
+* Local models on a NAS for sensitive data
 * Cloud models for general reasoning
-
-* Open WebUI Remix / open-source stacks as hybrid interfaces
-
-* Running Qwen, LLaMA, and GPT-class models locally for experiments and “agent builder” projects
-  
-* Wrappers with Express / NestJS
+* SDK kits, for hybrid interfaces
+* Running Qwen, LLaMA, and GPT-class models locally for experiments and agent-builder projects
+* Express and NestJS wrappers for serving
 
 ---
 
-## 🛠️ Product Stacks
+## Product Stack
 
 Frontend
 
-* Next.js / React
-
-* Trading interfaces with embedded charting components
+* Next.js and React on Cloudflare
+* Trading interfaces with embedded charting
 
 Backend
 
-* Node.js / NestJS
+* NestJS on Fly.io
+* REST and streaming endpoints for ledgers, dashboards, and price feeds
 
-* REST and streaming endpoints for ledgers, streaming dashboards, and price feeds
+Data and Infra
 
-Data & Infra
+* PostgreSQL via Supabase
+* Redis via Upstash
+* Docker and GitHub Actions for CI/CD
+* Cloudflare WAF and CDN
 
-* PostgreSQL (Supabase)
 
-* Redis (Upstash)
+Markets and Payments
 
-* Docker, GitHub Actions CI/CD
+* Charts: TradingView Lightweight Charts with custom implementation, plus Embed tools
+* Market data: Twelve Data, Dillon Gage
+* Payments: Stripe
+* Integrations: Dillon Gage FizConnect API, IDS Vault, Embedded Crypto
+* iOS: Xcode with Swift
 
-* Cloudflare WAF/CDN
+Creative tools
 
-* Datadog and n8n for monitoring and automation
-
-Markets & Payments
-
-* Charts: TradingView (with advanced charting planned at launch)
-
-* Payments: Stripe plus Plaid for merchant-of-record checkout
-
-* Logistics: FedEx, Brink’s, Dillon Gage integrations
-
-Creative Tools
-
-* Adobe Illustrator (layered/path SVGs for react), Photoshop, Premiere
+* Adobe Illustrator (layered SVGs for React), Photoshop, Premiere
 
 ---
 
-## 🌐 Connect
+## Connect
 
 * Website: [https://pbcex.com](https://pbcex.com)
-
-* Source Timeline: – reach out and work with us on Source Timeline.
-
 * LinkedIn: [https://www.linkedin.com/in/ebraheim-salem-2117688b/](https://www.linkedin.com/in/ebraheim-salem-2117688b/)
-
 * X (Twitter): [https://x.com/DesertFox_99](https://x.com/DesertFox_99)
-
+* X (Twitter): [https://x.com/PBCEx_](https://x.com/PBCEx_)
 * Instagram: [https://www.instagram.com/salem.ebraheim/](https://www.instagram.com/salem.ebraheim/)
-
----
-
