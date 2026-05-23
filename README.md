@@ -8,6 +8,7 @@ I also build MegaCon (mega-conducter): an agent supervisor for large-repo AI dev
 
 ### Stack
 I ❤️ TypeScript.
+
 Next.js · NestJS · Postgres · Fly.io · Cloudflare · Claude · Codex · gstack 
 
 ### Connect
