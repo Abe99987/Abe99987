@@ -1,19 +1,22 @@
-<p align="center">
-  <img width="320" height="320" alt="MegaCon" src="https://github.com/user-attachments/assets/185355ee-03e3-4151-83ae-825741092dfa" />
-</p>
 
 # Ebraheim Salem
 
-I build fintech apps and the agent loops that ship them.
+Building PBCEx (pbcex.com) — a spot exchange 
+for physical precious metals, critical minerals, and crypto in a 
+single account. Institutional custody. Physical delivery.
 
-I'm working on PBCEx, a fintech ecosystem for crypto, physical metals, DCA rules, spending, vaulting, and delivery.
+Also building MegaCon — an agent supervisor for large-repo AI 
+development. Coordinates coding loops with durable state and review 
+gates so context survives between sessions.
 
-I also build MegaCon (mega-conducter): an agent supervisor for large-repo AI development. It coordinates sequential and parallel coding loops with a queue, operator board, durable state on disk, review gates, repair passes, and closeout journals, so agents can hand work to each other without relying on chat scrollback. MegaCon also writes loop memory into a Supabase agent knowledge base, so plans, PR evidence, reviews, repairs, and journals become searchable context for the next agent instead of getting lost in chat history.
+Stack: TypeScript · NestJS · Next.js · Postgres · Fly.io · Cloudflare
+
+→ pbcex.com
 
 ### Stack
 I ❤️ TypeScript.
 
-Next.js · NestJS · Postgres · Fly.io · Cloudflare · Claude · Codex · gstack 
+Next.js · NestJS · Postgres · Fly.io · Cloudflare · Claude · Codex · gstack-megacon
 
 ### Connect
 
