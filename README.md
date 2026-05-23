@@ -1,4 +1,6 @@
-<img width="320" height="320" alt="20251125_2331_New Video_storyboard_01kaz6vjemeap9bx3yzscghh6g" src="https://github.com/user-attachments/assets/185355ee-03e3-4151-83ae-825741092dfa" />
+<p align="center">
+  <img width="320" height="320" alt="MegaCon" src="https://github.com/user-attachments/assets/185355ee-03e3-4151-83ae-825741092dfa" />
+</p>
 
 # Ebraheim Salem
 
