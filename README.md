@@ -2,7 +2,7 @@
 # Ebraheim Salem
 
 Building PBCEx (pbcex.com) — a spot exchange 
-for physical precious metals, critical minerals, and crypto in a 
+for physical metals, and crypto in a 
 single account. Institutional custody. Physical delivery.
 
 Also building MegaCon — an agent supervisor for large-repo AI 
