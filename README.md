@@ -1,11 +1,12 @@
 
 # Ebraheim Salem
 
-Building PBCEx (pbcex.com) — a spot exchange 
+Building:
+PBCEx (pbcex.com) — a spot exchange 
 for physical metals, and crypto in a 
 single account. Institutional custody. Physical delivery.
 
-Also building MegaCon — an agent supervisor for large-repo AI 
+MegaCon — an agent supervisor for large-repo AI 
 development. Coordinates coding loops with durable state and review 
 gates so context survives between sessions.
 
